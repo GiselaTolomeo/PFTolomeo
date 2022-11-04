@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit:wght@400;500&family=Lato:wght@900&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Kanit:wght@400;500&family=Lato:wght@300&family=Stalinist+One&display=swap');
+$colorblue: rgb(0, 72, 255);
+$colorgreen: rgb(10, 244, 10);
+$coloryellow: rgb(251, 255, 0);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    margin-left: 50px;
+}
+h1{
+    font-size:400%;
+    color: $colorgreen;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 370px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 1px rgb(189, 181, 181);
+}
+h2{
+    font-size: 200%;
+    color:rgb(30, 94, 244);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 510px;
+    text-shadow: 1px 1px 1px rgb(189, 181, 181);
+}
+h3{
+    color: $colorblue;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h4{
+    color:rgba(255, 255, 254, 0.708);
+    font-family: 'Lato', sans-serif;
+    font-size: 130%;
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h5{
+    color:rgb(30, 94, 244);
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body{
+    background-image: url(../images/hexagonos.jpeg);
+    background-size: 200%;
+    background: cover;
+    background-position: 10%;
+    background-attachment: fixed;
+}
+ul{
+    background-color: rgb(254, 254, 254);
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1px;
+}
+li {
+    display: inline-block;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+li a:hover{
+    color:rgb(11, 79, 236);
+}
+a{
+    text-decoration: none;  
+    color: black;
+}
+.contact{
+    color: $colorgreen;
+    font-weight: bolder;
+    border: 2px solid $colorgreen;
+    border-radius: 10%;
+    padding: 20px;
+    margin-left: 635px;
+}
+p{
+    color:aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 2px;
+}
+.list{
+    background-image: none;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+.list li{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.imagen{
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-bottom: 90px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.imagen:hover{
+    transform: scale(0.9);
+}
+.video{
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    border: 5px solid rgb(10, 244, 10);
+}
+.video:hover {
+    transform: scale(0.9);
+}
+.img-box{
+    margin-left: 125px;
+    margin-right: 125px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.img-box:hover{
+    transform: scale(0.9);
+}
+.star{
+margin-left: 0px;
+margin-bottom:  30px;
+}
+.button{
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+footer{
+    color: $colorgreen;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 300px;
+    margin-bottom: 40px;
+}
+.redes{
+    background-color: aliceblue;
+    border: 3px solid $colorgreen;
+}
+.redes:hover{
+    transform: scale(0.8);
+    color: $colorblue;     
+}
+.barra{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 320px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.barra:hover{
+    transform: scale(0.9);
+}
+.mapa{
+    margin-left: 420px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.mapa:hover{
+    transform: scale(0.9);
+}
+ol{
+    text-align: center;
+}
+.form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.woman{
+margin-left: 430px;
+margin-bottom: 50px;
+transition: 0.5s;
+border: 5px solid $colorgreen;
+}
+.woman:hover{
+    transform: scale(0.9);
+}
+.duo{
+    margin-left: 400px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.duo:hover{
+    transform: scale(0.9);
+}
+.verMas{
+    margin-left: 1200px;
+}
+.carrera{
+    margin-left: 315px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.carrera:hover{
+    transform: scale(0.9);
+}
+.rodrigo{
+    margin-left: 440px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    border: 5px solid $colorgreen;
+}
+.rodrigo:hover{
+    transform: scale(0.9);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    padding: 5px;
+    margin: 30px;
+}
+.grid div{
+    padding: 10px;
+    text-align: justify;
+    border: 2px solid blue;
+    border-radius: 10%;
+    margin: 10px;
+    text-size-adjust: 10px;
+}
+.grid div:hover{
+    transform: scale(0.9);
+}
+.categorias p{
+margin: 10px;
+}
+.footer{
+    font-size: large;
+}
+/* -------------------------  MEDIA QUERIS MOBILE 320px  ------------------------- */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+body p{
+    font-size: 16px;
+    text-align: justify center;
+    margin: 20px;
+    }
+   .list li{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-size: 16px;
+    }
+    h1{
+        font-size:120%;
+        text-align: left;
+        left: 98px;
+    }
+    h2{
+        font-size: 60%;
+        text-align: left;
+        top: 38px;
+        left: 140px;
+        }
+    h3, h4, h5{
+    font-size: 14px;
+    margin: 15px;
+    }
+    .logo{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .star{
+        width: 18px;
+        height: 18px;
+        margin-top: 10px;
+    }
+.imagen, .img-box{
+    width: 250px;
+    height: 300px;
+    margin-left: 35px;
+    }
+    .carrera,.duo,.barra,.carrera,.woman{
+        width: 300px;
+        height: 200px;
+        margin: 12px;
+    }
+    .rodrigo{
+    width: 295px;
+    height: 400px;
+    margin: 15px;
+    }
+.button{
+    margin-left: 120px;
+    }
+    .video{
+        margin-left: -160px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+.contact{
+        margin-left: 100px;
+    }
+    .mapa,.comentarios{
+        width: 300px;
+        height: 280px;
+        margin-left: 10px;
+    }
+}
+/* -------------------------  MEDIA QUERIS TABLET 768px  ------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    body p{
+        font-size: 20px;
+        text-align: justify center;
+        margin: 20px;
+        }
+    .list li{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 20px;
+        }
+    h1{
+        font-size: 200%;
+        text-align: left;
+        left: 240px; 
+        top: 25px;      
+        }
+    h2{
+        font-size: 100%;
+        text-align: left;
+        top: 63px;
+        left: 310px;
+        }
+    h3, h4, h5{
+        font-size: 20px;
+        margin: 15px;
+        }
+    .logo{
+        width: 110px;
+        height: 110px;
+        margin-left: 20px;
+        }
+    .star{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        }
+    .imagen{
+        width: 230px;
+        height: 300px;
+        margin: 10px;
+        }
+    .img-box{
+        width: 350px;
+        height: 300px;
+        margin: 15px;  
+        }
+    .button{
+        margin-left: 350px;
+        }
+    .video{
+        margin-left: 70px;
+        }
+    .duo,.barra,.carrera,.woman{
+        width: 590px;
+        height: 380px;
+        margin-left: 100px;
+        }
+    .rodrigo{
+            width: 350px;
+            height: 550px;
+            margin-left: 220px;
+            }
+    .grid{
+            display: grid;
+            grid-template-columns: 90%;
+            padding: 25px;
+            margin-left: 90px;
+        }
+    .contact{
+            margin-left: 320px;
+        }
+    .mapa,.comentarios{
+            width: 450px;
+            height: 375px;
+            margin-left: 150px;
+        }
+}
